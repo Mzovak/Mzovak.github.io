@@ -1,0 +1,47 @@
+* { margin: 0; box-sizing: border-box; } 
+
+body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: Helvetica, sans-serif ;
+    background-color: lightgray /* */;
+    color: black /* #xxxxxx */;
+    text-align: left;
+    max-width: 500px;
+  }
+
+h1 {
+    font-size: 1rem /* x.xrem  (rem is a unit of measure) */;
+    color:navy/* #xxxxxx */;
+}
+h2 {
+    font-size: 3rem /* x.xrem */;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+
+header, main, footer {
+    font-size: 32px;
+    line-height: 32px;
+    margin: 10px auto;
+    max-width: 625px /* xxxpx (px = pixel is a unit of measure)  */;
+    text-align: center;
+    background-color: blueviolet /* */;
+    color: black;
+}
+
+header img {
+    width: 75px/*  */;
+    height: auto;
+    float: left;
+    margin: 3;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    font-size: 1rem /* smaller */;
+}
