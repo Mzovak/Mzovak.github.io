@@ -7,15 +7,26 @@ body {
     background-color: lightgray /* */;
     color: black /* #xxxxxx */;
     text-align: left;
-    max-width: 500px;
+    max-width: 625px;
   }
+
+  body img {
+    width: 300px/*  */;
+    height: auto;
+    float: center;
+    margin: 3;
+}
+
+title {
+    font-family: Arial, Courier, sans-serif;
+}
 
 h1 {
     font-size: 1rem /* x.xrem  (rem is a unit of measure) */;
     color:navy/* #xxxxxx */;
 }
 h2 {
-    font-size: 3rem /* x.xrem */;
+    font-size: 1rem /* x.xrem */;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -24,6 +35,7 @@ header, main, footer {
     font-size: 32px;
     line-height: 32px;
     margin: 10px auto;
+    font-family: Areial Header, sans-serif;
     max-width: 625px /* xxxpx (px = pixel is a unit of measure)  */;
     text-align: center;
     background-color: blueviolet /* */;
@@ -31,17 +43,25 @@ header, main, footer {
 }
 
 header img {
-    width: 90px/*  */;
+    width: 75px/*  */;
     height: auto;
     float: left;
     margin: 3;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+    border: 1px solid #555;
+  }
+  
+  li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
 
 footer {
-    font-size: 1rem /* smaller */;
+    font-size: .75rem /* smaller */;
 }
