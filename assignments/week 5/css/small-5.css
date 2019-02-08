@@ -56,8 +56,10 @@ header img {
     margin: 3;
     padding: 15px;
 }
-nav ul {
-    padding: 0;   
+ ul {
+     padding: 10px;
+     float: center;
+   
   }
   
   nav li {
@@ -76,10 +78,16 @@ nav ul {
 
   div.social{
       display: inline-block;
+  
   }
+  div.social img{
+      max-width: 75px;
+  }
+
   footer img{
       padding: 20px;
   }
 footer {
     font-size: .75rem /* smaller */;
+    padding: 20px;
 }
