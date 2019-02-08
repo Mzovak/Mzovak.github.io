@@ -16,7 +16,7 @@ title {
 
 header h1 {
     font-size: 2rem /* x.xrem  (rem is a unit of measure) */;
-    color:navy/* #xxxxxx */;
+    color:darkkhaki/* #xxxxxx */;
     text-align: center;
     padding: 15px;
 
@@ -35,6 +35,8 @@ h2 {
 h3{
     text-align: center;
     font-size: 2rem;
+    color: darkred;
+    padding: 20px;
 }
 header, main, footer {
     font-size: 1rem;
@@ -42,8 +44,8 @@ header, main, footer {
     margin: 10px auto;
     font-family: Areial Header, sans-serif;
     text-align: center;
-    background-color: blueviolet /* */;
-    color: black;
+    background-color: darkred /* */;
+    color: wheat;
 }
 
 header img {
@@ -68,6 +70,7 @@ nav ul {
   }
   img.road{
       max-width: 100%;
+      padding: 20px
   }
 
 
@@ -75,7 +78,9 @@ nav ul {
   div.social{
       display: inline-block;
   }
-  
+  footer img{
+      padding: 20px;
+  }
 footer {
     font-size: .75rem /* smaller */;
 }
