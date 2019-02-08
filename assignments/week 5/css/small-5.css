@@ -1,13 +1,14 @@
 * { margin: 0; box-sizing: border-box; } 
 
 body { 
-    font-size: 1rem; 
+    font-size: .75rem; 
     line-height: 1rem;
     font-family: Helvetica, sans-serif ;
     background-color: lightgray /* */;
     color: black /* #xxxxxx */;
     text-align: left;
     }
+
 
   
 title {
@@ -49,7 +50,7 @@ header, main, footer {
 }
 
 header img {
-    width: 100px/*  */;
+    width: 250px /*  */;
     height: auto;
     float: left;
     margin: 3;
@@ -61,7 +62,7 @@ nav ul {
   
   nav li {
     text-align: center;
-     list-style-type: none;
+    list-style-type: none;
     border: 1px solid #555;
     padding: 5px;
   }
@@ -72,8 +73,6 @@ nav ul {
       max-width: 100%;
       padding: 20px
   }
-
-
 
   div.social{
       display: inline-block;
