@@ -1,17 +1,13 @@
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-  }
+@media only screen and (min-width: 45em){
+ul{
+    text-align: center;
+}
   
   li {
-    float: left;
-  }
+      display: inline-block;
+     }
   
   li a {
-    display: block;
     color: Navy;
     text-align: center;
     padding: 14px 16px;
@@ -23,3 +19,4 @@ ul {
     background-color:powderblue;
   }
 
+}
