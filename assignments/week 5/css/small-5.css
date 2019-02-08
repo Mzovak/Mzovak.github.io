@@ -1,8 +1,8 @@
 * { margin: 0; box-sizing: border-box; } 
 
 body { 
-    font-size: 16px; 
-    line-height: 32px;
+    font-size: 1rem; 
+    line-height: 1rem;
     font-family: Helvetica, sans-serif ;
     background-color: lightgray /* */;
     color: black /* #xxxxxx */;
@@ -15,9 +15,11 @@ title {
 }
 
 header h1 {
-    font-size: 1rem /* x.xrem  (rem is a unit of measure) */;
+    font-size: 2rem /* x.xrem  (rem is a unit of measure) */;
     color:navy/* #xxxxxx */;
     text-align: center;
+    padding: 15px;
+
 }
 section h1 {
     padding:20px;
@@ -32,7 +34,7 @@ h2 {
 }
 h3{
     text-align: center;
-    font-size: 
+    font-size: 2rem;
 }
 header, main, footer {
     font-size: 1rem;
@@ -45,10 +47,11 @@ header, main, footer {
 }
 
 header img {
-    width: 75px/*  */;
+    width: 100px/*  */;
     height: auto;
     float: left;
     margin: 3;
+    padding: 15px;
 }
 nav ul {
     padding: 0;   
@@ -69,7 +72,7 @@ nav ul {
 
 
 
-  div.social img{
+  div.social{
       display: inline-block;
   }
   
