@@ -6,7 +6,8 @@ body {
     font-family: Helvetica, sans-serif ;
     background-color: lightgray /* */;
     color: black /* #xxxxxx */;
-    text-align: left;
+    text-align: center;
+    padding: 20px;
     }
 
 
@@ -25,6 +26,7 @@ header h1 {
 section h1 {
     padding:20px;
     text-align: center;
+    font-size: 3rem;
 
 
 }
@@ -50,22 +52,23 @@ header, main, footer {
 }
 
 header img {
-    width: 250px /*  */;
+    width: 150px /*  */;
     height: auto;
     float: left;
     margin: 3;
     padding: 15px;
 }
+
  ul {
      padding: 10px;
      float: center;
+     list-style-type: none
    
   }
   
   nav li {
     text-align: center;
     list-style-type: none;
-    border: 1px solid #555;
     padding: 5px;
   }
  nav li a{
@@ -73,7 +76,6 @@ header img {
   }
   img.road{
       max-width: 100%;
-      padding: 20px
   }
 
   div.social{
