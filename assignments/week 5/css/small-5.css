@@ -26,14 +26,13 @@ header h1 {
 section h1 {
     padding:20px;
     text-align: center;
-    font-size: 3rem;
-
-
+    font-size: 2rem;
 }
 h2 {
     font-size: 1rem /* x.xrem */;
-    text-align: center;
+    text-align: right;
     border-bottom: 1px solid #bbb;
+    padding: 15px;
 }
 h3{
     text-align: center;
@@ -55,8 +54,10 @@ header img {
     width: 150px /*  */;
     height: auto;
     float: left;
-    margin: 3;
     padding: 15px;
+    position: absolute;
+    top: -5px;
+    left: -10px;
 }
 
  ul {
