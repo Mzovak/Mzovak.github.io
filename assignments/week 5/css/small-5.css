@@ -60,7 +60,7 @@ header img {
     left: -10px;
 }
 
- ul {
+ nav ul {
      padding: 10px;
      float: center;
      list-style-type: none
@@ -75,10 +75,37 @@ header img {
  nav li a{
       text-decoration: none;
   }
+  main{
+      max-width: 800px;
+  }
+  div.summary{
+      position: relative;
+      
+  }
+  div.summary div{
+       position: absolute;
+       top: 15px;
+       left: 15px;
+       background-color: rgba(139, 0, 0,.5);
+      
+  }
+  ul.weather 
+  {
+      padding: 0;
+  }
+  ul.weather li
+    { margin: 5px;
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+      display: block;
+    }
   img.road{
       max-width: 100%;
   }
-
+  article img
+{ max-width: 100%;
+}
   div.social{
       display: inline-block;
   
@@ -89,7 +116,10 @@ header img {
 
   footer img{
       padding: 20px;
+      float: right;
+      top: 50px;
   }
+  footer>p {clear: both;}
 footer {
     font-size: .75rem /* smaller */;
     padding: 20px;
