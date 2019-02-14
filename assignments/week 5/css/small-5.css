@@ -1,7 +1,7 @@
 * { margin: 0; box-sizing: border-box; } 
 
 body { 
-    font-size: .75rem; 
+    font-size: .50rem; 
     line-height: 1rem;
     font-family: Helvetica, sans-serif ;
     background-color: lightgray /* */;
@@ -14,10 +14,11 @@ body {
   
 title {
     font-family: Arial, Courier, sans-serif;
+    font-size: 1rem;
 }
 
 header h1 {
-    font-size: 2rem /* x.xrem  (rem is a unit of measure) */;
+    font-size: 1.5rem /* x.xrem  (rem is a unit of measure) */;
     color:darkkhaki/* #xxxxxx */;
     text-align: center;
     padding: 15px;
@@ -26,17 +27,17 @@ header h1 {
 section h1 {
     padding:20px;
     text-align: center;
-    font-size: 2rem;
+    font-size: 1rem;
 }
 h2 {
-    font-size: 1rem /* x.xrem */;
+    font-size: .75rem /* x.xrem */;
     text-align: right;
     border-bottom: 1px solid #bbb;
     padding: 15px;
 }
 h3{
     text-align: center;
-    font-size: 2rem;
+    font-size: .75rem;
     color: darkred;
     padding: 20px;
 }
@@ -56,27 +57,32 @@ header img {
     float: left;
     padding: 15px;
     position: absolute;
-    top: -5px;
-    left: -10px;
+    top: 20px;
+    left: 40px;
 }
 
  nav ul {
      padding: 10px;
      float: center;
-     list-style-type: none
-   
+     list-style-type: none   
   }
   
   nav li {
     text-align: center;
     list-style-type: none;
     padding: 5px;
+    font-size: .75rem;
   }
  nav li a{
       text-decoration: none;
   }
+  nav.wrapper
+  {
+      font-size: .75rem;
+  }
   main{
       max-width: 800px;
+      font-size: .75rem;
   }
   div.summary{
       position: relative;
@@ -106,21 +112,29 @@ header img {
   article img
 { max-width: 100%;
 }
+  div.address{
+      float:left;
+  }
   div.social{
       display: inline-block;
-  
+   
   }
   div.social img{
       max-width: 75px;
-  }
+        }
 
   footer img{
       padding: 20px;
-      float: right;
-      top: 50px;
+      top: 100px;
+      left: -50px;
+     
   }
-  footer>p {clear: both;}
+  footer>p {
+      clear: both;
+          
+    }
 footer {
     font-size: .75rem /* smaller */;
     padding: 20px;
+    
 }
