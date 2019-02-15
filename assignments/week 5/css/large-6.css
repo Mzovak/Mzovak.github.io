@@ -19,5 +19,32 @@ ul{
   li a:hover {
     background-color:powderblue;
   }
+  /*5 Day Forecast*/
+  table {
+    margin:auto;
+  }
+  section.forcast{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: .3em;
+    padding: 1.2rem;
+    text-align: center;
+  }
+.forcast th {
+  background-color: navy;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px
+}
+.forecast td,
+.forcast th {
+  border: 3px solid khaki
+}
+.forecast td {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  padding: 20px 45px;
+}
 
 }

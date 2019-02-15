@@ -111,8 +111,11 @@ header, main, footer {
   img.road{
       max-width: 100%;
   }
-  article img
-{ max-width: 100%;
+  section.forcast{
+    display: none;
+  }
+  article img{ 
+      max-width: 100%;
 }
   div.address{
       float:left;
@@ -135,6 +138,9 @@ header, main, footer {
       clear: both;
           
     }
+main.footer{
+    max-width: 800px;
+}
 footer {
     font-size: .75rem /* smaller */;
     padding: 20px;
