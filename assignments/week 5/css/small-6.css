@@ -119,7 +119,9 @@ header, main, footer {
       max-width: 100%;
 }
   div.address{
-      float:left;
+      float:center;
+      padding: 40px;
+      margin-top: 20px;
   }
   div.social{
       display: inline-block;
@@ -130,15 +132,14 @@ header, main, footer {
       float: left;
         }
 
-  footer img{
-      padding: 20px;
-      top: 100px;
-      left: -50px;
+  #googleMap{
+     align-items: center ;
+     margin-right: 30px;
+          }
      
-  }
   footer>p {
       clear: both;
-          
+         
     }
 main.footer{
     max-width: 800px;
