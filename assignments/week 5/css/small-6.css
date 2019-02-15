@@ -10,54 +10,54 @@ header img {
 }  
 title {
     font-family: Arial, Courier, sans-serif;
-    font-size: 1rem;
+    font-size: 1em;
 }
 header h1 {
-    font-size: 1.5rem /* x.xrem  (rem is a unit of measure) */;
-    color:darkkhaki/* #xxxxxx */;
+    font-size: 1.5em /* x.xrem  (rem is a unit of measure) */;
+    color:	#BDB76B/* #xxxxxx */;
     text-align: center;
     padding: 15px;
 }
 h1{
     padding: 60px;
-    font-size: .75rem;
+    font-size: .75em;
     text-align: center;
 }
 section h1 {
     padding:20px;
     text-align: center;
-    font-size: 1rem;
+    font-size: 1em;
 }
 h2 {
-    font-size: .75rem /* x.xrem */;
+    font-size: .75em /* x.xrem */;
     text-align: right;
     border-bottom: 1px solid #bbb;
     padding: 15px;
 }
 h3{
     text-align: center;
-    font-size: .75rem;
-    color: khaki;
+    font-size: .75em;
+    color:	#BDB76B;
     padding: 20px;
 }
 body { 
-    font-size: .50rem; 
-    line-height: 1rem;
+    font-size: .50em; 
+    line-height: 1em;
     font-family: Helvetica, sans-serif ;
-    background-color: lightgray /* */;
-    color: black /* #xxxxxx */;
+    background-color: 	#D3D3D3 /* */;
+    color: 	#000000 /* #xxxxxx */;
     text-align: center;
     padding: 20px;
 }
 
 header, main, footer {
-    font-size: 1rem;
-    line-height: 1rem;
+    font-size: 1em;
+    line-height: 1em;
     margin: 10px auto;
     font-family: Areial Header, sans-serif;
     text-align: center;
-    background-color: darkred /* */;
-    color: wheat;
+    background-color: #8B0000 /* */;
+    color:	#F5DEB3;
 }
  nav ul {
      padding: 10px;
@@ -68,18 +68,18 @@ header, main, footer {
     text-align: center;
     list-style-type: none;
     padding: 5px;
-    font-size: .75rem;
+    font-size: .75em;
   }
  nav li a{
       text-decoration: none;
   }
   nav.wrapper
   {
-      font-size: .75rem;
+      font-size: .75em;
   }
   main{
       max-width: 800px;
-      font-size: .75rem;
+      font-size: .75em;
   }
 
   img.forcast {
@@ -127,6 +127,7 @@ header, main, footer {
   }
   div.social img{
       max-width: 75px;
+      float: left;
         }
 
   footer img{
@@ -143,7 +144,7 @@ main.footer{
     max-width: 800px;
 }
 footer {
-    font-size: .75rem /* smaller */;
+    font-size: .75em /* smaller */;
     padding: 20px;
     
 }
