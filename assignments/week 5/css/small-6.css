@@ -7,7 +7,11 @@ header img {
     position: absolute;
     top: 20px;
     left: 40px;
-}  
+}
+.motto {
+    display: inline;
+}
+  
 title {
     font-family: Arial, Courier, sans-serif;
     font-size: 1em;
@@ -115,13 +119,15 @@ header, main, footer {
   section.forcast{
     display: none;
   }
+  section.forcast.img{
+        max-width: 75px;
+  }
   article img{ 
       max-width: 100%;
 }
   div.address{
       float:center;
-      padding: 40px;
-      margin-top: 20px;
+      
   }
   div.social{
       display: inline-block;

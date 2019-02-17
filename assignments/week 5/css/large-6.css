@@ -30,6 +30,9 @@ ul{
     padding: 1.2rem;
     text-align: center;
   }
+  .forcast{
+    display: inline;
+  }
 .forcast th {
   background-color: navy;
   color: #fff;
@@ -55,6 +58,7 @@ div.social, footer>p{
 }
 div.address {
   margin-top: 50px;
+  padding: 40px;
 }
 
 }
