@@ -119,8 +119,8 @@ header, main, footer {
   section.forcast{
     display: none;
   }
-  section.forcast img{
-        max-width: 50px;
+  img#weather{
+      max-width: 50px;
   }
   article img{ 
       max-width: 100%;
