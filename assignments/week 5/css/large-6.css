@@ -29,6 +29,7 @@ ul{
     border-radius: .3em;
     padding: 1.2rem;
     text-align: center;
+    background-color: darkkhaki;
   }
   .forcast{
     display: inline-block;

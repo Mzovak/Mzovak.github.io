@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="css/normalize.css">
         <link rel="stylesheet" href="css/small-5.css">
         <link rel="stylesheet" href="css/large-5.css">
+
                 <title>Preston | Weather in Idaho-</title>                        
   </head>
   <body>  
@@ -36,7 +37,7 @@
     <main>
       <section>
             <h1>Preston</h1>
-            <div class="summary"><img class="road" src="images/smallview.png"alt="Opps no photo"/>
+            <div class="summary"><img class="road" src="images/smallview.png" alt="Opps no photo"/>
             <div><h3>Weather Summary</h3>
             <ul class="weather">
                   <li>Current Weather:Sunny</li>
@@ -62,15 +63,15 @@
               <tbody>
                   <tr>
                       <td><img src="images/sunny.png" id="weather_iconone" alt="Weather"
-                      Icon><br>High <span id="dayonetemp"></span>14&deg;F</td>
+                      icon><br>High <span id="dayonetemp"></span>14&deg;F</td>
                       <td><img src="images/sunny.png" id="weather_icontwo" alt="Weather"
-                      Icon><br>High <span id="daytwotemp"></span>22&deg;F</td>
+                      icon><br>High <span id="daytwotemp"></span>22&deg;F</td>
                       <td><img src="images/sunny.png" id="weather_iconthree" alt="Weather"
-                      Icon><br>High <span id="daythreetemp"></span>26&deg;F</td>
+                      icon><br>High <span id="daythreetemp"></span>26&deg;F</td>
                       <td><img src="images/sunny.png" id="weather_iconfour" alt="Weather"
-                      Icon><br>High <span id="dayfourtemp"></span>19&deg;F</td>
+                      icon><br>High <span id="dayfourtemp"></span>19&deg;F</td>
                       <td><img src="images/sunny.png" id="weather_iconfive" alt="Weather"
-                      Icon><br>High <span id="dayfivetemp"></span>25&deg;F</td>
+                      icon><br>High <span id="dayfivetemp"></span>25&deg;F</td>
                   </tr>
               </tbody>
           </table>
@@ -105,10 +106,12 @@
              <img src="images/instagram.png" alt="Instagram">
              <img src="images/twitter.png" alt="Twitter">
        </div>
-       <br>
-      
+          
   
-  <p>Copyright © 2019 |  Your Gem State Weather   | Melissa Fraley |Current date</p> 
-      </footer>
+  <p>Copyright © 2019 |  Your Gem State Weather   | Melissa Fraley |<span id="currentdate"></span><br></p> 
+
+</footer>
 <script src="script/hamburger.js"></script> 
+<script> var d = new Date(2019, 1, 18); document.getElementById("currentdate").innerHTML = d;</script>
 </body>
+</html>
