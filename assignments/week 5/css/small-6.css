@@ -120,12 +120,15 @@ header, main, footer {
     display: none;
   }
   section.forcast img{
-      max-width: 50px;
+      max-width: auto;
   }
   article img{ 
       max-width: 100%;
 }
-    div.social img{
+div.address{
+    align-self: auto;
+}
+ div.social img{
       max-width: 75px;
       float: left;
         }
