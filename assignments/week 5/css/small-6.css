@@ -119,7 +119,7 @@ header, main, footer {
   section.forcast{
     display: none;
   }
-  img#weather_iconone{
+  section.forcast img{
       max-width: 50px;
   }
   article img{ 
