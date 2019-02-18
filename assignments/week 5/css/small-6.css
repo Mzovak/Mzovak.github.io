@@ -62,11 +62,12 @@ header, main, footer {
     text-align: center;
     background-color: #8B0000 /* */;
     color:	#F5DEB3;
+    border: none;
 }
-nav{
+nav {
     background-color: darkkhaki;
     margin: 0;
-    
+
 }
  nav ul {
      padding: 10px;
