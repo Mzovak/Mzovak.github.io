@@ -119,7 +119,7 @@ header, main, footer {
   section.forcast{
     display: none;
   }
-  tbody img{
+  img#weather_iconone{
       max-width: 50px;
   }
   article img{ 
