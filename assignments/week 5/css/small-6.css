@@ -125,15 +125,7 @@ header, main, footer {
   article img{ 
       max-width: 100%;
 }
-  div.address{
-      float:center;
-      
-  }
-  div.social{
-      display: inline-block;
-   
-  }
-  div.social img{
+    div.social img{
       max-width: 75px;
       float: left;
         }

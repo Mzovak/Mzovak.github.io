@@ -49,6 +49,10 @@ ul{
   line-height: 1.4em;
   padding: 20px 45px;
 }
+div.address{
+  float:center;
+  
+}
 #googleMap{
   float: right;
   margin-right: 30px;
@@ -57,7 +61,7 @@ div.social, footer>p{
   clear: right;
 }
 div.address {
-  margin-top: 50px;
+  margin: 100px 0 0 50px;
   padding: 40px;
 }
 
