@@ -5,8 +5,8 @@
         <meta name="description" content="Weather website page for Melissa Fraley Student in CIT 230: Web Front-End Development at Brigham Young University-Idaho.">
         <meta name= "viewport" content= "width=device-width, initial-scale=1">
         <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/small-5.css">
-        <link rel="stylesheet" href="css/large-5.css">
+        <link rel="stylesheet" href="css/small-6.css">
+        <link rel="stylesheet" href="css/large-6.css">
 
                 <title>Preston | Weather in Idaho-</title>                        
   </head>
@@ -14,16 +14,14 @@
       <header>
         <img src="images/weather.png" alt="Opps logo didn't load">
         <div class="motto">
-
-            <h1>Gem State Weather</h1>
-        
+            <h1>Gem State Weather</h1>        
             <h2>"We will help you get ready for your day!"</h2>
         </div>                  
       </header>
 
      <nav>
      <button onclick="toggleNavMenu()">☰</button>      
-        <ul id="primaryNav" class="hide">
+        <ul id="primaryNav">
 
             <li><a href="#">Home</a></li>
             <li><a href="#">Preston</a></li>            
@@ -35,8 +33,11 @@
         </ul>   
       </nav> 
     <main>
-      <section>
+      <section class="hero">
             <h1>Preston</h1>
+            <img class="myphoto" src="images/franklin.jpg" alt="Sunny Day in Preston Idaho" sizes="50vw" srcset="images/franklin200.jpg 400w,
+            images/franklin800.jpg 900w">
+
             <div class="summary"><img class="road" src="images/smallview.png" alt="Opps no photo"/>
             <div><h3>Weather Summary</h3>
             <ul class="weather">
@@ -79,7 +80,6 @@
       
 <article>
     <h1>Current Weather Story</h1>
-    <br>
     <img src="images/snow.jpeg" alt="Opps logo didn't load">
 
     <p>Reported by Weather Channel: After dumping inches – feet, in some areas – of snow in two waves, Winter Storm Lucian finally left the West on Wednesday.
@@ -112,6 +112,6 @@
 
 </footer>
 <script src="script/hamburger.js"></script> 
-<script> var d = new Date(2019, 1, 18); document.getElementById("currentdate").innerHTML = d;</script>
+<script src="script/currentdate.js"></script>
 </body>
 </html>
