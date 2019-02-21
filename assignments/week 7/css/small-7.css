@@ -3,16 +3,16 @@
     box-sizing: none;
 }
 
-header img {
-    width: 50px
-        /*  */
-    ;
-    height: auto;
+header {
+    display: flex;
+    justify-content: center;
 }
 
-.motto {
-    display: inline-block;
+header img {
+    max-width: 50px;
+    align-self: center;
 }
+
 
 title {
     font-family: Arial, Courier, sans-serif;

@@ -1,36 +1,39 @@
-@media only screen and (min-width: 45em){
-nav button{
-  display: none;
-}
-  ul{
+@media only screen and (min-width: 45em) {
+  nav button {
+    display: none;
+  }
+
+  ul {
     text-align: center;
-    display: inline-block;
-}
-  
+    display: inline-flex;
+  }
+
   li {
-      display: inline-block;
-    
-     }
-  
+    display: inline-flex;
+
+  }
+
   li a {
     color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
-  ul.hide{
-    display: inline-block;
+
+  ul.hide {
+    display: inline-flex;
   }
-  /* Change the link color to #111 (black) on hover */
-  
-  section.hero{
+
+  section.hero {
     margin-bottom: 35px;
-}
+  }
+
   /*5 Day Forecast*/
   table {
-    margin:auto;
+    margin: auto;
   }
-  section.forecast{
+
+  section.forecast {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
     border-radius: .3em;
@@ -38,39 +41,49 @@ nav button{
     text-align: center;
     background-color: whitesmoke;
   }
-  .forecast{
+
+  .forecast {
     display: inline-block;
   }
-.forecast th {
-  background-color:  rgb(152, 152, 201);
-  color: #fff;
-  font-size: 1.2rem;
-  padding: 10px
-}
-.forecast td,
-.forcast th {
-  border: 3px solid gray;
-}
-.forecast td {
-  text-align: center;
-  font-size: 1.5em;
-  line-height: 1.4em;
-  padding: 20px 45px;
-}
-.forcast table{
-  margin-left: 100px;
-}
-#googleMap{
-  float: right;
-  margin-right: 30px;
-}
-div.social, footer>p{
-  clear: right;
-}
-div.address {
-  margin: 100px 0 0 50px;
-}
-main.footer{
-  max-width: 800px;
-}
+
+  .forecast th {
+    background-color: rgb(152, 152, 201);
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 10px
+  }
+
+  .forecast td,
+  .forcast th {
+    border: 3px solid gray;
+  }
+
+  .forecast td {
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.4em;
+    padding: 20px 45px;
+  }
+
+  .forcast table {
+    margin-left: 100px;
+  }
+
+  #googleMap {
+    float: right;
+    margin-right: 30px;
+  }
+
+  div.social,
+  footer>p {
+    clear: right;
+  }
+
+  div.address {
+    margin: 100px 0 0 50px;
+  }
+
+  main.footer {
+    max-width: 800px;
+  }
 }
