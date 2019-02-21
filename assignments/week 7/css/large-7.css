@@ -16,7 +16,7 @@ ul.hide{
      }
   
   li a {
-    color: Navy;
+    color: black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -24,7 +24,7 @@ ul.hide{
   
   /* Change the link color to #111 (black) on hover */
   li a:hover {
-    background-color:powderblue;
+    background-color: gray;
   }
   section.hero{
     margin-bottom: 35px;
@@ -39,20 +39,20 @@ ul.hide{
     border-radius: .3em;
     padding: 1.2rem;
     text-align: center;
-    background-color: darkkhaki;
+    background-color: whitesmoke;
   }
   .forecast{
     display: inline-block;
   }
 .forecast th {
-  background-color: navy;
+  background-color:  rgb(152, 152, 201);
   color: #fff;
   font-size: 1.2rem;
   padding: 10px
 }
 .forecast td,
 .forcast th {
-  border: 3px solid khaki
+  border: 3px solid gray;
 }
 .forecast td {
   text-align: center;

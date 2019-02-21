@@ -13,7 +13,7 @@ title {
 }
 header h1 {
     font-size: 1.5em /* x.xrem  (rem is a unit of measure) */;
-    color:	#BDB76B/* #xxxxxx */;
+    color:black/* #xxxxxx */;
     text-align: center;
     padding: 15px;
     margin: 0;
@@ -56,19 +56,19 @@ header, main, footer {
     margin: 10px auto;
     font-family: Areial Header, sans-serif;
     text-align: center;
-    background-color: palegreen /* */;
-    color:	#F5DEB3;
+    background-color:rgb(152, 152, 201)/* */;
+    color: black;
     border: none;
 }
 nav {
-    background-color: darkkhaki;
+    background-color:  rgb(152, 152, 201);
     margin: 0;
 
 }
  nav ul {
      padding: 10px;
      list-style-type: none;  
-     background-color: darkkhaki;
+     background-color: rgb(152, 152, 201);
   }  
   nav li {
     text-align: center;
@@ -101,7 +101,7 @@ nav {
        position: absolute;
        top: 15px;
        left: 15px;
-       background-color: rgb(152, 251,152);
+       background-color: rgb(152, 152, 201);
       
   }
   ul.weather 
