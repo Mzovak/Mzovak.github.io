@@ -1,0 +1,79 @@
+@media only screen and (min-width: 45em){
+nav button{
+  display: none;
+}
+ul.hide{
+  display: inline-block;
+}
+  ul{
+    text-align: center;
+    display: inline-block;
+}
+  
+  li {
+      display: inline-block;
+    
+     }
+  
+  li a {
+    color: Navy;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color:powderblue;
+  }
+  section.hero{
+    margin-bottom: 35px;
+}
+  /*5 Day Forecast*/
+  table {
+    margin:auto;
+  }
+  section.forecast{
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: .3em;
+    padding: 1.2rem;
+    text-align: center;
+    background-color: darkkhaki;
+  }
+  .forecast{
+    display: inline-block;
+  }
+.forecast th {
+  background-color: navy;
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 10px
+}
+.forecast td,
+.forcast th {
+  border: 3px solid khaki
+}
+.forecast td {
+  text-align: center;
+  font-size: 1.5em;
+  line-height: 1.4em;
+  padding: 20px 45px;
+}
+.forcast table{
+  margin-left: 100px;
+}
+#googleMap{
+  float: right;
+  margin-right: 30px;
+}
+div.social, footer>p{
+  clear: right;
+}
+div.address {
+  margin: 100px 0 0 50px;
+}
+main.footer{
+  max-width: 800px;
+}
+}
