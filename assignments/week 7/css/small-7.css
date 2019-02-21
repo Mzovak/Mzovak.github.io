@@ -41,6 +41,9 @@ h3{
     padding: 20px 20px 0 20px;
     margin: 0;
 }
+img.myphoto{
+    max-width: 100%;
+}
 body { 
     font-size: 16px; 
     line-height: 1em;
