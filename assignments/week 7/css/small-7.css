@@ -180,6 +180,13 @@ article img {
     max-width: 100%;
 }
 
+.grid {
+    display: grid;
+    grid-template-columns: 1tr;
+    grid-template-rows: 200px;
+    grid-gap: 50px;
+}
+
 div.address {
     align-self: auto;
 }

@@ -68,6 +68,13 @@
   .forcast table {
     margin-left: 100px;
   }
+  .grid{
+    display: grid;
+    grid-template-columns: 2tr 2tr 2t;
+    grid-template-rows: 200px 200px 200px;
+    grid-gap: 50px;
+
+}
 
   #googleMap {
     float: right;
