@@ -1,8 +1,8 @@
 *{box-sizing: border-box}
 
-.grid{
+.grid {
     display: grid;
-    grid-template-columns: 1tr 1tr;
+    grid-template-columns: repeat(2, 2tr);
     grid-template-rows: 200px 200px;
     grid-gap: 50px;
 
