@@ -2,9 +2,6 @@
 nav button{
   display: none;
 }
-ul.hide{
-  display: inline-block;
-}
   ul{
     text-align: center;
     display: inline-block;
@@ -21,11 +18,11 @@ ul.hide{
     padding: 14px 16px;
     text-decoration: none;
   }
-  
-  /* Change the link color to #111 (black) on hover */
-  li a:hover {
-    background-color: gray;
+  ul.hide{
+    display: inline-block;
   }
+  /* Change the link color to #111 (black) on hover */
+  
   section.hero{
     margin-bottom: 35px;
 }
