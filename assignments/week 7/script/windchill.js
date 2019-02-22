@@ -1,11 +1,12 @@
 // Input - get windchill
-let x = document.getElementById('windchill').innerHTML;
-var temp = document.getElementById('highTemp').innerHTML;
-var windspeed = document.getElementById('windspeed').innerHTML;
+
+var temp = parseInt(document.getElementById('highTemp').innerHTML);
+var speed = parseInt(document.getElementById('windspeed').innerHTML);
 
 //Processing - calculate windchill
-let result = 35.74 + 0.6215('highTemp') - 35.75('windspeed')^0.16 + 0.4275('windspeed')^16;
+var windchill = 35.74 + 0.6215 + temp - 35.75 + Math.pow (speed, 0.16) + 0.4275 + temp + Math.pow(speed, 0.16);
    
 
 //Outpull - show windchill
-document.getElementById('output') = result
+windChill = Math.pow(windChill);
+document.getElementById("windChill").innerHTML = windchill;

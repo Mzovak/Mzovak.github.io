@@ -1,6 +1,6 @@
 *{box-sizing: border-box}
 
-section.gallery {
+section.gallery  {
     display: grid;
     grid-template-columns: repeat(2, 2tr);
     grid-template-rows: 200px 200px;

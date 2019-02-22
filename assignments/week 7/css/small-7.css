@@ -180,11 +180,14 @@ article img {
     max-width: 100%;
 }
 
-section.gallery {
+.gallery {
     display: grid;
     grid-template-columns: 1tr;
     grid-template-rows: 200px;
     grid-gap: 50px;
+}
+gallery_img {
+    max-width: 100%;
 }
 
 div.address {
