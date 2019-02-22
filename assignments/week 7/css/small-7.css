@@ -132,7 +132,7 @@ li a:hover {
 main {
     max-width: 800px;
     font-size: .75em;
-    background-color: whitesmoke;
+    background-color: lightgray;
 }
 
 img.forcast {
