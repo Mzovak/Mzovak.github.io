@@ -35,7 +35,10 @@
   table {
     margin: auto;
   }
-
+  main {
+    max-width: 1500px;
+    margin-left: 1em;
+  }
   section.forecast {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
@@ -71,11 +74,9 @@
   .forcast table {
     margin-left: 100px;
   }
-  section.gallery {
-    display: grid;
-    grid-template-columns: repeat(3, 2tr);
-    grid-template-rows: repeat(3, 200px);
-    grid-gap: 50px;
+  div.gallery {
+    grid-template-columns: repeat(3, 2fr);
+   
 }
 .gallery__img {
   width: 100%;

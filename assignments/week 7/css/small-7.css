@@ -180,9 +180,9 @@ article img {
     max-width: 100%;
 }
 
-.gallery {
+div.gallery {
     display: grid;
-    grid-template-columns: 1tr;
+    grid-template-columns: 1fr;
     grid-template-rows: 200px;
     grid-gap: 50px;
 }

@@ -1,9 +1,6 @@
-*{box-sizing: border-box}
+@media only screen and (min-width: 45em){
 
-section.gallery  {
-    display: grid;
-    grid-template-columns: repeat(2, 2tr);
-    grid-template-rows: 200px 200px;
-    grid-gap: 50px;
-
+div.gallery  {
+    grid-template-columns: repeat(2, 2fr);
+    }
 }
