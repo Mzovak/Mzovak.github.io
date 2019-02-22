@@ -180,7 +180,7 @@ article img {
     max-width: 100%;
 }
 
-.grid {
+section.gallery {
     display: grid;
     grid-template-columns: 1tr;
     grid-template-rows: 200px;
