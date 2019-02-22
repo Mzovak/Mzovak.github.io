@@ -1,6 +1,6 @@
 @media only screen and (min-width: 45em){
 
 div.gallery  {
-    grid-template-columns: repeat(2, 2fr);
+    grid-template-columns: repeat(2, 50%);
     }
 }

@@ -1,4 +1,4 @@
-@media only screen and (min-width: 45em) {
+@media only screen and (min-width: 64em) {
   nav button {
     display: none;
   }
@@ -76,6 +76,12 @@
   }
   div.gallery {
     grid-template-columns: repeat(3, 2fr);
+    max-width: 2300px;
+    margin: auto;
+  }
+  div.gallery figure:hover {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4)
+  }
    
 }
 .gallery__img {
@@ -101,4 +107,4 @@
   main.footer {
     max-width: 800px;
   }
-}
+

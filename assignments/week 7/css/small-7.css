@@ -132,6 +132,7 @@ li a:hover {
 main {
     max-width: 800px;
     font-size: .75em;
+    background-color: whitesmoke;
 }
 
 img.forcast {
@@ -182,14 +183,10 @@ article img {
 
 div.gallery {
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-columns: (1fr 100%);
     grid-template-rows: 200px;
     grid-gap: 50px;
 }
-gallery_img {
-    max-width: 100%;
-}
-
 div.address {
     align-self: auto;
 }
