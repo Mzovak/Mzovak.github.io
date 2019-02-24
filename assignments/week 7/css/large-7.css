@@ -37,8 +37,7 @@
   }
   main {
     max-width: 1500px;
-    margin-left: 1em;
-  }
+      }
   section.forecast {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
