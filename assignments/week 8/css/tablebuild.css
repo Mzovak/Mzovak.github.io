@@ -13,15 +13,15 @@ header {
 
 header,
 footer {
-    background-color: #7fb9c2;
+    background-color: #7f8bc2;
     text-align: center;
 }
 body {
     margin: 20px;
     max-width: 800px;
-    box-shadow: 5px 10px rgba(128, 128, 128);
+    box-shadow: 5px 10px rgba(62, 89, 148);
     font-family: Ubuntu, sans-serif;
-    color: black
+    color: black;
 }
 
 table {
