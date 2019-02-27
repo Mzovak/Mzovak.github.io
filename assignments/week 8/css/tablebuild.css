@@ -1,22 +1,56 @@
-* { margin: 0; box-sizing: border-box; } 
+* {
+    margin: 0 ;
+    box-sizing: border-box;
+}
 
-header{
+header {
     margin: 0;
+    color: black;
+    font-weight: bold;
+    font-family: Ubuntu, sans-serif;
+
 }
-header, footer{
-    background-color: #628cab;
+
+header,
+footer {
+    background-color: #7fb9c2;
+    text-align: center;
 }
-header{
-    color: white;
+body {
+    margin: 20px;
+    max-width: 800px;
+    box-shadow: 5px 10px rgba(128, 128, 128);
+    font-family: Ubuntu, sans-serif;
+    color: black
 }
-table{
+
+table {
     table-layout: fixed;
     width: 100%;
     border-collapse: collapse;
-    border: 3px solid #628cab;
-    box-shadow: 1em;
+   
 }
-main{
-    font-family: Ubuntu, sans-serif;
-    color: black
+tbody th:nth-child(1) {
+    width: 30%;
+}
+tbody td:nth-child(6){
+    font-style: italic;
+}
+
+td {
+    letter-spacing: 2px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #e7f0ed;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #e7ffed;
+}
+
+tbody tr:nth-child(1) {
+    background-color: #628cab;
+    font-weight: bold;
+
 }
