@@ -1,0 +1,13 @@
+/*spacing*/
+
+table{
+    table-layout: fixed;
+    width: 100%;
+    border-collapse: collapse;
+    border: 3px solid #628cab;
+    box-shadow: 1em;
+}
+html{
+    font-family: Ubuntu, sans-serif;
+    color: black
+}
