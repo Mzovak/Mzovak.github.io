@@ -33,14 +33,14 @@ header h1 {
 
 article h1 {
     padding: 15px;
-    font-size: .75rem;
+    font-size: 1em;
     text-align: center;
 }
 
 section h1 {
-    padding: 20px;
+    padding: 15px;
     text-align: center;
-    font-size: 1em;
+    font-size: 2em;
 }
 
 h2 {
@@ -151,6 +151,11 @@ section.hero div {
     left: 15px;
     background-color: rgba(152, 152, 201, 0.603);
 
+} 
+main div p {
+    padding-top: 200px; padding-bottom: 200px;
+    font-family: Areial Header, sans-serif;
+    font-size: 2em;
 }
 
 ul.weather {
@@ -187,7 +192,7 @@ div.gallery {
     grid-template-rows: 200px;
     grid-gap: 50px;
 }
-div.address {
+div.address  {
     align-self: auto;
 }
 
