@@ -211,3 +211,12 @@ footer {
     padding: 20px;
     max-width: 800px;
 }
+form {
+        text-align: left;
+        margin-left: 75px;
+        padding: 20px;
+}
+input  {
+    padding: 10px;
+    box-sizing: border-box;
+}

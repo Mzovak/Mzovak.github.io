@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/small-8.css">
     <link rel="stylesheet" href="css/medium-8.css">
     <link rel="stylesheet" href="css/large-8.css">
-    
+
     <title>Storm Center | Weather in Idaho-</title>
 </head>
 
@@ -36,6 +36,58 @@
 
         </ul>
     </nav>
+    <form>
+        <h3>Personal Information</h3>
+        Full Name: <br>
+        <input type="text" name="Full Name" required size="50"><br>
+        E-mail: <br>
+        <input type="email" name="mail"><br>
+        Phone Number: <br>
+        <input type="tel" name="phonenumber"><br>
+        Zip code: <br>
+        <input type="number" name="zipcode"><br>
+    </form>
+    <form> 
+        <h3>Storm Information</h3>       
+        Storm Date: <br>
+        <input type="date" name="stormdate"><br>
+        Storm Type:<br>
+        <input type="list" name="stormtype">
+        <datalist id="list">
+            <option value="flashflood">
+            <option value="hail">
+            <option value="hurricane">
+            <option value="thunderstorm">
+            <option value="tornado">
+        </datalist><br>
+        Storm Severity: <br>
+        <div class="slidecontainer">
+            <input type="range" min="1" max="10" value="50">
+        </div>
+        Storm Region: <br>
+        <input type= "select" name="stormregion">
+            <select>
+                <option value="selectregion">Select Region</option>
+                <option value="preston">Preston</option>
+                <option value="sodasprings">Soda Springs</option>
+                <option value="fishhaven">Fish Haven</option>
+            </select><br>
+         Are you in danger?: <br>
+         <input type="radio" name="dangerlevel" value="yes" checked>Yes</br>
+         <input type="radio" name="dangerlevel" value="no" checked>No</br>   
+         <input type="radio" name="dangerlevel" value="maybe" checked>Maybe</br> 
+    <Form>
+         <h3>Additional Information</h3>
+         Comments: <br>
+         <textarea rows="4" cols="50"></textarea> <br>
+         <input type="submit" value="Submit">
+    </Form>    
+
+
+
+
+
+    </form>
 
 
 
@@ -66,28 +118,29 @@
 
 
     <footer>
-            <img id="googleMap" src="images/map.jpg" alt="Opps no picture">
-           <div class="address">
-                 <p>Gem State Weather</p>
-                  <address>30 N 1st E</address>
-                  <address>Preston, Id 83263</address>
-                  <br>
-                  <p>Phone: (800) 932-8437</p>
-                  <p>Email: gemstateweather@weather.com</p>
-                 
-                 </div>
-                  <div class="social">
-                        <img src="images/facebook.png" alt="Facebook">
-                        <img src="images/instagram.png" alt="Instagram">
-                        <img src="images/twitter.png" alt="Twitter">
-                  </div>
-                     
-             
-             <p>Copyright © 2019 |  Your Gem State Weather   | Melissa Fraley |<span id="currentdate"></span><br></p> 
-           
-           </footer>
-           <script src="script/hamburger.js"></script> 
-           <script src="script/currentdate.js"></script>
-           <script src="script/windchill.js"></script>
-           </body>
-           </html>
+        <img id="googleMap" src="images/map.jpg" alt="Opps no picture">
+        <div class="address">
+            <p>Gem State Weather</p>
+            <address>30 N 1st E</address>
+            <address>Preston, Id 83263</address>
+            <br>
+            <p>Phone: (800) 932-8437</p>
+            <p>Email: gemstateweather@weather.com</p>
+
+        </div>
+        <div class="social">
+            <img src="images/facebook.png" alt="Facebook">
+            <img src="images/instagram.png" alt="Instagram">
+            <img src="images/twitter.png" alt="Twitter">
+        </div>
+
+
+        <p>Copyright © 2019 | Your Gem State Weather | Melissa Fraley |<span id="currentdate"></span><br></p>
+
+    </footer>
+    <script src="script/hamburger.js"></script>
+    <script src="script/currentdate.js"></script>
+    <script src="script/windchill.js"></script>
+</body>
+
+</html>
