@@ -185,6 +185,10 @@ section.forecast img {
 article img {
     max-width: 100%;
 }
+article p {
+    max-width: 500px;
+    margin: auto;
+}
 div.gallery {
     display: grid;
     grid-template-columns: (1fr 100%);

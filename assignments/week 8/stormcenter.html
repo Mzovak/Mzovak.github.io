@@ -37,18 +37,19 @@
 
         </ul>
     </nav>
-    <form>
+    <form method="get" action="thanks.html"> 
+        <fieldset>
         <h3>Personal Information</h3>
         Full Name: <br>
-        <input type="text" name="Full Name" required size="50"><br>
+        <input type="text" name="Full Name" pattern="[A-Za-z]{3,99}" required><br>
         E-mail: <br>
-        <input type="email" name="mail"><br>
+        <input type="email" name="mail" placeholder="weather@mail.com"><br>
         Phone Number: <br>
-        <input type="tel" name="phonenumber"><br>
+        <input type="tel" name="phonenumber" pattern="d{3}[\-]\d{3}[\-]\d{4}"required><br>
         Zip code: <br>
-        <input type="number" name="zipcode"><br>
-    </form>
-    <form>
+        <input type="number" name="zipcode" required><br>
+    </fieldset>
+    <fieldset>
         <h3>Storm Information</h3>
         Storm Date: <br>
         <input type="date" name="stormdate"><br>
@@ -63,12 +64,14 @@
             <option value="Tornado">
         </datalist><br>
         Storm Severity: <br>
+        
         <div class="slidecontainer">
-            <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
+               
+            <input type="range" min="1" max="10" value="5" class="slider" id="rating" oninput="adjustRating(this.value)" onchange="adjustRating(this.value)">
+            <span id="ratingvalue">5</span>
         </div>
         Storm Region: <br>
-        <input type="select" name="stormregion">
-        <select>
+                <select name="stormregion">
             <option value="selectregion">Select Region</option>
             <option value="preston">Preston</option>
             <option value="sodasprings">Soda Springs</option>
@@ -78,12 +81,13 @@
         <input type="radio" name="dangerlevel" value="yes" checked>Yes</br>
         <input type="radio" name="dangerlevel" value="no" checked>No</br>
         <input type="radio" name="dangerlevel" value="maybe" checked>Maybe</br>
-        <form>
+    </fieldset>
+        <fieldset>
             <h3>Additional Information</h3>
             Comments: <br>
             <textarea rows="4" cols="50"></textarea> <br>
-         </form>  
-         <form method="get" action="thanks.html"> 
+        </fieldset>  
+          
             <button type="submit">Submit</button> 
         </form>
 
@@ -111,6 +115,7 @@
     <script src="script/hamburger.js"></script>
     <script src="script/currentdate.js"></script>
     <script src="script/windchill.js"></script>
+    <script src="script/stormcenter.js"></script>
 </body>
 
 </html>

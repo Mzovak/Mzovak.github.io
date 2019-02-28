@@ -40,7 +40,7 @@ input[type=tel] {
      border-radius: 4px;
      text-align: center;
  }
- input[type=weather]{
+ input[list=weather]{
      margin: 8px 0;
      border-radius: 4px;
  }
@@ -80,7 +80,11 @@ input[type=tel] {
     background: #4CAF50;
     cursor: pointer;
   }
-  input[type=select]{
+  #ratingvalue {
+    padding: 10px;
+  }
+
+  select[name=stormregion]{
       margin: 8px 0;
       border-radius: 4px;
   }
@@ -94,7 +98,9 @@ textarea{
     border-radius: 4px;
     width: 75%;
 }
-.button{
+button{
     border-radius: 4px;
-    color: rgb(64, 64, 204)
+    background-color: rgb(64, 64, 204);
+    color: white;
+    padding: 10px;
 }
