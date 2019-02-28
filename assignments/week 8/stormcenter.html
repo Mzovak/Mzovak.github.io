@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/small-8.css">
     <link rel="stylesheet" href="css/medium-8.css">
     <link rel="stylesheet" href="css/large-8.css">
+    <link rel="stylesheet" href="css/stormcenter-8.css">
 
     <title>Storm Center | Weather in Idaho-</title>
 </head>
@@ -28,7 +29,7 @@
         <ul id="primaryNav">
 
             <li><a href="#">Home</a></li>
-            <li class="active"><a href="preston-7.html">Preston</a></li>
+            <li class="#"><a href="preston-7.html">Preston</a></li>
             <li><a href="#">Soda Springs</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="active"><a href="stormcenter.html">Storm Center</a></li>
@@ -47,75 +48,42 @@
         Zip code: <br>
         <input type="number" name="zipcode"><br>
     </form>
-    <form> 
-        <h3>Storm Information</h3>       
+    <form>
+        <h3>Storm Information</h3>
         Storm Date: <br>
         <input type="date" name="stormdate"><br>
         Storm Type:<br>
-        <input type="list" name="stormtype">
-        <datalist id="list">
-            <option value="flashflood">
-            <option value="hail">
-            <option value="hurricane">
-            <option value="thunderstorm">
-            <option value="tornado">
+        
+        <input list="weather" name="weather">
+        <datalist id="weather">
+            <option value="Flashflood">
+            <option value="Hail">
+            <option value="Hurricane">
+            <option value="Thunderstorm">
+            <option value="Tornado">
         </datalist><br>
         Storm Severity: <br>
         <div class="slidecontainer">
-            <input type="range" min="1" max="10" value="50">
+            <input type="range" min="1" max="10" value="5" class="slider" id="myRange">
         </div>
         Storm Region: <br>
-        <input type= "select" name="stormregion">
-            <select>
-                <option value="selectregion">Select Region</option>
-                <option value="preston">Preston</option>
-                <option value="sodasprings">Soda Springs</option>
-                <option value="fishhaven">Fish Haven</option>
-            </select><br>
-         Are you in danger?: <br>
-         <input type="radio" name="dangerlevel" value="yes" checked>Yes</br>
-         <input type="radio" name="dangerlevel" value="no" checked>No</br>   
-         <input type="radio" name="dangerlevel" value="maybe" checked>Maybe</br> 
-    <Form>
-         <h3>Additional Information</h3>
-         Comments: <br>
-         <textarea rows="4" cols="50"></textarea> <br>
-         <input type="submit" value="Submit">
-    </Form>    
-
-
-
-
-
-    </form>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <input type="select" name="stormregion">
+        <select>
+            <option value="selectregion">Select Region</option>
+            <option value="preston">Preston</option>
+            <option value="sodasprings">Soda Springs</option>
+            <option value="fishhaven">Fish Haven</option>
+        </select><br>
+        Are you in danger?: <br>
+        <input type="radio" name="dangerlevel" value="yes" checked>Yes</br>
+        <input type="radio" name="dangerlevel" value="no" checked>No</br>
+        <input type="radio" name="dangerlevel" value="maybe" checked>Maybe</br>
+        <Form>
+            <h3>Additional Information</h3>
+            Comments: <br>
+            <textarea rows="4" cols="50"></textarea> <br>
+            <input type="submit" value="Submit">
+        </form>
 
     <footer>
         <img id="googleMap" src="images/map.jpg" alt="Opps no picture">
