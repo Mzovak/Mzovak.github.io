@@ -194,6 +194,7 @@ div.gallery {
     grid-template-columns: (1fr 100%);
     grid-template-rows: 200px;
     grid-gap: 50px;
+    margin: auto;
 }
 div.address  {
     align-self: auto;
