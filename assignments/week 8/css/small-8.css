@@ -133,6 +133,7 @@ main {
     max-width: 800px;
     font-size: .75em;
     background-color: lightgray;
+    margin: auto;
 }
 
 img.forcast {
@@ -195,9 +196,7 @@ div.gallery {
     grid-template-rows: 200px;
     grid-gap: 50px;
     }
-gallery {
-    margin: auto;
-}
+
 div.address  {
     align-self: auto;
 }
