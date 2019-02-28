@@ -1,44 +1,31 @@
-* {
-    margin: 0 ;
-    box-sizing: border-box;
-}
-
-header {
-    margin: 0;
-    color: black;
-    font-weight: bold;
-    font-family: Ubuntu, sans-serif;
-
-}
-
-header,
-footer {
-    background-color: #7f8bc2;
-    text-align: center;
-}
 body {
-    margin: 20px;
-    max-width: 800px;
-    box-shadow: 5px 10px rgba(62, 89, 148);
-    font-family: Ubuntu, sans-serif;
+    margin: 12px;
+    font-family: "Ubuntu", sans-serif;
     color: black;
 }
 
 table {
-    table-layout: fixed;
-    width: 100%;
-    border-collapse: collapse;
-   
-}
-tbody th:nth-child(1) {
-    width: 30%;
-}
-tbody td:nth-child(6){
-    font-style: italic;
+    margin: 0 10px;
+    text-align: center;
+    border-spacing: 1px;
+    box-shadow: 5px 5px 10px rgb(62, 89, 148);
+    background-color: #bbb;
 }
 
-td {
-    letter-spacing: 2px;
+tbody tr:nth-child(1) {
+    background-color: #628ca6;
+    font-weight: bold;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding: 5px;
+    font-size: 18px;
+}
+tbody tr:nth-child(2) {
+    color: white;
+    background-color: #7fb9c2;
+}
+tbody tr:nth-child(7) td:first-child {
+    font-style: italic;
 }
 
 tbody tr:nth-child(odd) {
@@ -49,8 +36,12 @@ tbody tr:nth-child(even) {
     background-color: #e7ffed;
 }
 
-tbody tr:nth-child(1) {
-    background-color: #628cab;
-    font-weight: bold;
+tfoot td {
+    background-color: #628ca6;
+    font-size: .75rem;
+}
 
+.highlight {
+    color: #fff;
+    background-color: #628ca6;
 }
