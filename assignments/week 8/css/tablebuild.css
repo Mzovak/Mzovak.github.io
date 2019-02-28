@@ -25,8 +25,10 @@ tbody tr:nth-child(1) {
     margin-bottom: 3px;
     font-size: 18px;
 }
-tbody tr:nth-child(2)  {
+tbody tr:nth-child(2) td  {
         background-color: #628ca6;
+        color: white;
+        font-weight: bold;
         }
 tbody tr:nth-child(7) td:first-child {
     font-style: italic;
@@ -43,6 +45,7 @@ tbody tr:nth-child(even) {
 tfoot td {
     background-color: #7fb9c2;;
     font-size: .75rem;
+    padding: 3px;
 }
 
 .highlight {
