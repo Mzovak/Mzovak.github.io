@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en us">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="description" content="Weather website page for Melissa Fraley Student in CIT 230: Web Front-End Development at Brigham Young University-Idaho.">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/small-8.css">
+    <link rel="stylesheet" href="css/medium-8.css">
+    <link rel="stylesheet" href="css/large-8.css">
+    <link rel="stylesheet" href="css/stormcenter-8.css">
+
+    <title> Home | Weather in Idaho-</title>
+</head>
+
+<body>
+    <header>
+        <img src="images/weather.png" alt="Opps logo didn't load">
+        <div class="motto">
+            <h1>Gem State Weather</h1>
+            <h2>"We will help you get ready for your day!"</h2>
+        </div>
+    </header>
+
+    <nav>
+        <button onclick="toggleNavMenu()">☰</button>
+        <ul id="primaryNav">
+
+            <li class="active"><a href="home.html">Home</a></li>
+            <li><a href="preston-7.html">Preston</a></li>
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallary-7.html">Gallery</a></li>
+
+        </ul>
+    </nav>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer>
+        <img id="googleMap" src="images/map.jpg" alt="Opps no picture">
+        <div class="address">
+            <p>Gem State Weather</p>
+            <address>30 N 1st E</address>
+            <address>Preston, Id 83263</address>
+            <br>
+            <p>Phone: (800) 932-8437</p>
+            <p>Email: gemstateweather@weather.com</p>
+
+        </div>
+        <div class="social">
+            <img src="images/facebook.png" alt="Facebook">
+            <img src="images/instagram.png" alt="Instagram">
+            <img src="images/twitter.png" alt="Twitter">
+        </div>
+
+
+        <p>Copyright © 2019 | Your Gem State Weather | Melissa Fraley |<span id="currentdate"></span><br></p>
+
+    </footer>
+    <script src="script/hamburger.js"></script>
+    <script src="script/currentdate.js"></script>
+    <script src="script/windchill.js"></script>
+    <script src="script/stormcenter.js"></script>
+</body>
+</html>

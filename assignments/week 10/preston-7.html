@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang= "en us">
+<head>
+
+        <meta charset="utf-8">
+        <meta name="description" content="Weather website page for Melissa Fraley Student in CIT 230: Web Front-End Development at Brigham Young University-Idaho.">
+        <meta name= "viewport" content= "width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/small-8.css">
+        <link rel="stylesheet" href="css/medium-8.css">
+        <link rel="stylesheet" href="css/large-8.css">
+        <link rel="stylesheet" href="css/stormcenter-8.css">
+
+                <title>Preston | Weather in Idaho-</title>                        
+  </head>
+  <body>  
+      <header>
+        <img src="images/weather.png" alt="Opps logo didn't load">
+        <div class="motto">
+            <h1>Gem State Weather</h1>        
+            <h2>"We will help you get ready for your day!"</h2>
+        </div>                  
+      </header>
+
+     <nav>
+     <button onclick="toggleNavMenu()">☰</button>      
+        <ul id="primaryNav">
+
+            <li><a href="home.html">Home</a></li>
+            <li class="active"><a href="preston-7.html">Preston</a></li>            
+            <li><a href="#">Soda Springs</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="stormcenter.html">Storm Center</a></li>
+            <li><a href="gallary-7.html">Gallery</a></li>
+            
+        </ul>   
+      </nav> 
+    <main>
+      <section class="hero">
+            <h1>Preston</h1>
+            <img class="myphoto" src="images/smallview.png" alt="Sunny Day in Preston Idaho" sizes="50vw" srcset="images/franklin200.jpg 400w,
+            images/franklin800.jpg 900w">
+
+            <div><h3>Weather Summary</h3>
+            <ul class="weather">
+                  <li>Current Weather:Sunny</li>
+                  <li>High: <span id="highTemp">80</span>&deg;</li>
+                  <li>Wind Chill: <span id="windchill"></span>&deg;</li>
+                  <li>Humidity: <span id="humidity">12%</span>&deg;</li>
+                  <li>Windspeed: <span id="windspeed">2mph</span>&deg;</li>
+            </ul></div>
+            <div id="output"></div>
+             
+        </section>
+      <section class="forecast">
+          <h3>5 Day Forecast</h3>
+          <table>
+              <thead>
+                  <tr>
+                      <th><span id="dayone">Monday</span></th>
+                      <th><span id="daytwo">Tuesday</span></th>
+                      <th><span id="daythree">Wednesday</span></th>
+                      <th><span id="dayfour">Thursday</span></th>
+                      <th><span id="dayfive">Friday</span></th>
+                  </tr>
+              </thead>
+              <tbody>
+                  <tr>
+                      <td><img src="images/sunny.png" id="weather_iconone" alt="Weather"
+                      icon><br>High <span id="dayonetemp"></span>14&deg;F</td>
+                      <td><img src="images/sunny.png" id="weather_icontwo" alt="Weather"
+                      icon><br>High <span id="daytwotemp"></span>22&deg;F</td>
+                      <td><img src="images/sunny.png" id="weather_iconthree" alt="Weather"
+                      icon><br>High <span id="daythreetemp"></span>26&deg;F</td>
+                      <td><img src="images/sunny.png" id="weather_iconfour" alt="Weather"
+                      icon><br>High <span id="dayfourtemp"></span>19&deg;F</td>
+                      <td><img src="images/sunny.png" id="weather_iconfive" alt="Weather"
+                      icon><br>High <span id="dayfivetemp"></span>25&deg;F</td>
+                  </tr>
+              </tbody>
+          </table>
+      </section>
+      
+<article>
+    <h1>Current Weather Story</h1>
+    <img src="images/snow.jpeg" alt="Opps logo didn't load">
+
+    <p>Reported by Weather Channel: After dumping inches – feet, in some areas – of snow in two waves, Winter Storm Lucian finally left the West on Wednesday.
+      But it pivoted into the Midwest, where it was doling out a second punch of wintry weather to areas that already saw snow and ice days earlier. The winter storm has been blamed for three deaths – two in Missouri and one in Kansas.
+      In Michigan, freezing rain knocked down trees and power lines, leaving more than 50,000 people without power.     
+      School districts canceled classes as far west as Salt Lake City and Flagstaff, Arizona, and as far east as Detroit on Wednesday, a testament to how far-reaching the storm's impacts were. Officials urged drivers to slow down and be extremely careful when traveling on roads slickened by Lucian's snow and ice.
+      The storm also hit the Northwest hard Sunday and Monday, leaving unusually large snow accumulations in the Seattle area. Roads were slippery and dangerous, and police reported dozens of spinouts and crashes on Monday.
+      </p>
+</article>
+</main>
+ <footer>
+ <img id="googleMap" src="images/map.jpg" alt="Opps no picture">
+<div class="address">
+      <p>Gem State Weather</p>
+       <address>30 N 1st E</address>
+       <address>Preston, Id 83263</address>
+       <br>
+       <p>Phone: (800) 932-8437</p>
+       <p>Email: gemstateweather@weather.com</p>
+      
+      
+       <div class="social">
+             <img src="images/facebook.png" alt="Facebook">
+             <img src="images/instagram.png" alt="Instagram">
+             <img src="images/twitter.png" alt="Twitter">
+       </div>
+    </div>
+          
+  
+  <p>Copyright © 2019 |  Your Gem State Weather   | Melissa Fraley |<span id="currentdate"></span><br></p> 
+
+</footer>
+<script src="script/hamburger.js"></script> 
+<script src="script/currentdate.js"></script>
+<script src="script/windchill.js"></script>
+</body>
+</html>
