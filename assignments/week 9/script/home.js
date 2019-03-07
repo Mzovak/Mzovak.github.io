@@ -1,43 +1,55 @@
-{
-    "towns" ; [
-    {
-    "name": "Preston",
-    "motto": "Home of Napoleon Dynamite",
-    "yearFounded": 1866,
-    "currentPopulation": 5204,
-    "averageRainfall": 16.65,
-    "events" : [
-      "March 29: Work Creek Revival",
-      "July 8-12: Napoleon Dynamite Festival",
-      "November 2-4: Freedom Days"
-    ]
-  },
-  {
-    "name": "Soda Springs",
-    "motto": "Historic Oregon Trail Oasis. The Soda is on Us",
-    "yearFounded": 1858,
-    "currentPopulation": 2985,
-    "averageRainfall": 15.75,
-    "events" : [
-      "February 29: Geyser Song Day",
-      "May 1-6: Days of May Celebration",
-      "October 15-16: Octoberfest"
-    ]
-  },
-  {
-    "name": "Fish Haven",
-    "motto": "This is Fish Heaven.",
-    "yearFounded": 1864,
-    "currentPopulation": 501,
-    "averageRainfall": 14.20,
-    "events" : [
-      "April 1: How Big Was That Fish Day",
-      "May 15-30: Rush the Creek Days",
-      "July 24: Bear Lake Blunder Run",
-      "December 12: Light the Tree"
-    ]
-  }
-    ]
+
+var section = document.querySelector('section');
+    
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+request.onload = function () {
+    var townSummary = request.response;
+   
+  threeCities(townSummary);
 }
+
+
+function threeCities(jsonObj) {
+    var towns = jsonObj['towns'];
+        
+    for (var i = 0; i < towns.length; i++) {
+      if (i===0||i===2||i===3||i===6) {continue;}
+      var myArticle = document.createElement('article');
+      var myH2 = document.createElement('h2');
+      var myPara1 = document.createElement('p');
+      var myPara2 = document.createElement('p');
+      var myPara3 = document.createElement('p');
+      var myPara4 = document.createElement('p');
+      var myImg1 = document.createElement('img');
+      
+  
+      myH2.textContent = towns[i].name;
+      myPara1.textContent = towns[i].motto;
+      myPara2.textContent = 'Year Founded:' + towns[i].yearFounded;
+      myPara3.textContent = 'Current Population:' + towns[i].currentPopulation;
+      myPara4.textContent = 'Average Rainfall:' + towns[i].averageRainfall;   
+
+      
+  
+      myArticle.appendChild(myH2);
+      myArticle.appendChild(myPara1);
+      myArticle.appendChild(myPara2);
+      myArticle.appendChild(myPara3);
+      myArticle.appendChild(myPara4);
+      myArticle.appendChild(myImg1);
+  
+      section.appendChild(myArticle);
+      if (i===1) myImg1.src= "images/preston.jpg"
+      myImg1.setAttribute('alt','opps no photo');
+      if (i===4) myImg1.src="images/fishhaven/jpg"
+      myImg1.setAttribute('alt','opps no photo');
+      if (i===5) myImg1.src="images/sodasprings"
+      myImg1.setAttribute('alt','opps no photo');
+    }
+  }
 
 

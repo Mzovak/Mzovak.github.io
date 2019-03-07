@@ -3,4 +3,7 @@
 div.gallery  {
     grid-template-columns: repeat(2, 50%);
     }
+section.home {
+    grid-template-columns: repeat(3,1fr);
+}
 }
