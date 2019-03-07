@@ -1,5 +1,5 @@
 {
-    "towns" : [
+    "towns" ; [
     {
     "name": "Preston",
     "motto": "Home of Napoleon Dynamite",
