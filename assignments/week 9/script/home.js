@@ -43,11 +43,11 @@ function threeCities(jsonObj) {
       myArticle.appendChild(myImg1);
   
       section.appendChild(myArticle);
-      if (i===1) myImg1.src="images/sodasprings"
+      if (i===1) myImg1.src="images/fishhaven.jpg"
       myImg1.setAttribute('alt','opps no photo');
       if (i===4) myImg1.src="images/preston.jpg"
       myImg1.setAttribute('alt','opps no photo');
-      if (i===5) myImg1.src="images/fishhaven"
+      if (i===5) myImg1.src="images/sodasprings.JPG"
       myImg1.setAttribute('alt','opps no photo');
     }
   }

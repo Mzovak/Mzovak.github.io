@@ -232,9 +232,8 @@ section.home {
 section.home article {
     background-color:  rgb(152, 152, 201);
     border: 1px solid black;
-    padding: 3px;
-
 }
+
 section.home img {
     max-width: 100%;
 }
