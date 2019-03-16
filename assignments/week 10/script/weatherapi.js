@@ -4,7 +4,7 @@ weatherRequest.open('GET', apiURLstring, true);
 weatherRequest.send();
 
 weatherRequest.onload = function () {
-    let watherData = JSON.parse(weatherRequest.responseText);
+    let weatherData = JSON.parse(weatherRequest.responseText);
     console.log(weatherData);
 
     document.getElementById('cc-temp').innerHTML = weatherData.main.temp;
