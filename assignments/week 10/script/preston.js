@@ -45,7 +45,7 @@ weatherObject.onload = function () {
             var weekday = ["Sunday", " Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
             var findDate = weekday[date.getDay()] + '<br>' + month[date.getMonth()] + ' ' + date.getDate();
             listDate.push(temp);
-
+        
             //temp
             var temp = weatherInfo.list[i].main.temp_max;
             var temp = Math.round(temp);
