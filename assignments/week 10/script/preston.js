@@ -1,8 +1,8 @@
 //WEATHER SUMMARY
 
 var weatherObject = new XMLHttpRequest
-weatherObject.open('GET', 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=1b85c554f737909311537328716a5d15&units=imperial', true);
-weatherObject.send();
+weatherObject.open('GET', 'https://api.openweathermap.org/data/2.5/weather?id=5604473&appid=22d3073ac0bc46c0166da31b57c37655&units=imperial', true);
+weatherObject.send();                                                           
 weatherObject.onload = function () {
 
     var weatherInfo = JSON.parse(weatherObject.responseText);
@@ -21,7 +21,7 @@ weatherObject.onload = function () {
 //FORCAST
 
 var weatherForcast = new XMLHttpRequest
-weatherObject.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=1b85c554f737909311537328716a5d15&units=imperial', true);
+weatherObject.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=22d3073ac0bc46c0166da31b57c37655&units=imperial', true);
 weatherObject.send();
 weatherObject.onload = function () {
 
