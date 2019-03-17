@@ -21,9 +21,9 @@ weatherObject.onload = function () {
 //FORCAST
 
 var weatherForcast = new XMLHttpRequest
-weatherObject.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=22d3073ac0bc46c0166da31b57c37655&units=imperial', true);
-weatherObject.send();
-weatherObject.onload = function () {
+weatherForcast.open('GET', 'https://api.openweathermap.org/data/2.5/forecast?id=5604473&appid=22d3073ac0bc46c0166da31b57c37655&units=imperial', true);
+weatherForcast.send();
+weatherForcast.onload = function () {
 
     var weatherInfo = JSON.parse(weatherForcast.responseText);
     console.log(weatherInfo);
