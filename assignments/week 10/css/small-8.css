@@ -195,6 +195,7 @@ div.gallery {
     grid-template-columns: (1fr 100%);
     grid-template-rows: 200px;
     grid-gap: 50px;
+    margin: auto;
     }
 
 div.address  {
@@ -248,4 +249,29 @@ section.home article:nth-of-type(3){
     order:2;  
 }
 
+.events ul{
+    list-style-type: none;
+    padding: 0;
 
+}
+.events {
+    border: 1px solid black;
+    max-width: 400px;
+    margin: 20px auto;
+    padding-bottom: 20px;
+    background-color:  rgb(152, 152, 201);
+    
+}
+.events h2 {
+    color: white;
+    font-size: 3em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.events img {
+    padding-bottom: 20px; padding-top: 20px ;
+}
+.events div {
+    font-size: 1.5em;
+    padding-bottom: 20px;
+}

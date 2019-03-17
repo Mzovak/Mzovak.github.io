@@ -35,16 +35,16 @@ weatherForcast.onload = function () {
     var listTemp = [];
     var listIconCode = [];
 
-    for (i = 0; i, weatherInfo.list.length; ++i) {
+    for (i = 0; i < weatherInfo.list.length; ++i) {
         time = weatherInfo.list[i].dt_txt;
         if (time.includes('18:00:00')) {
 
             //date
-            var date = new DataCue(weatherInfo.list[i].dt * 1000);
+            var date = new Date(weatherInfo.list[i].dt * 1000);
             var month = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
             var weekday = ["Sunday", " Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"];
             var findDate = weekday[date.getDay()] + '<br>' + month[date.getMonth()] + ' ' + date.getDate();
-            listDate.push(temp);
+            listDate.push(findDate);
         
             //temp
             var temp = weatherInfo.list[i].main.temp_max;
@@ -77,14 +77,41 @@ weatherForcast.onload = function () {
 
     //Dispaly forcasted temp
 
-    document.getElementById("highTemp1").innerHTML = listTemp[0];
-    document.getElementById("highTemp2").innerHTML = listTemp[1];
-    document.getElementById("highTemp3").innerHTML = listTemp[2];
-    document.getElementById("highTemp4").innerHTML = listTemp[3];
-    document.getElementById("highTemp5").innerHTML = listTemp[4];
+    document.getElementById("day1temp").innerHTML = listTemp[0];
+    document.getElementById("day2temp").innerHTML = listTemp[1];
+    document.getElementById("day3temp").innerHTML = listTemp[2];
+    document.getElementById("day4temp").innerHTML = listTemp[3];
+    document.getElementById("day5temp").innerHTML = listTemp[4];
 
-    //display current date in footer
+}
+//EVENTS FOR PRESTON
+var aside = document.querySelector('aside');
+var requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+var request = new XMLHttpRequest();
+request.open('GET', requestURL);
+request.responseType = 'json';
+request.send();
+request.onload = function () {
+    var townData = request.response;
+    showData(townData);
+}
 
-    document.getElementById("currentdate").innerHTML = weekday[date.getDay()] + "," + date.getDate() + "," + month[date.getMonth()] + "," + date.getFullYear();
-    document.getElementById("currentYear").innerHTML = date.getFullYear();
+function showData(jsonObj) {
+    var data = jsonObj['towns'];
+    for (var i = 0; i < data.length; i++) {
+        var name = data[i].name;
+        if ((name.includes("Preston")) == false) {
+            continue;
+        }
+        var myDiv = document.createElement('div');
+        var myList = document.createElement('ul');
+        var townEvents = data[i].events;
+        for (var j = 0; j < townEvents.length; j++) {
+            var listItem = document.createElement('li');
+            listItem.textContent = townEvents[j];
+            myList.appendChild(listItem);
+        }
+        myDiv.appendChild(myList);
+        aside.appendChild(myDiv);
+    }
 }

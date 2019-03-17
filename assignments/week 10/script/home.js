@@ -33,8 +33,7 @@ function threeCities(jsonObj) {
       myPara3.textContent = 'Current Population:' + towns[i].currentPopulation;
       myPara4.textContent = 'Average Rainfall:' + towns[i].averageRainfall;   
 
-      
-  
+        
       myArticle.appendChild(myH2);
       myArticle.appendChild(myPara1);
       myArticle.appendChild(myPara2);
