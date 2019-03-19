@@ -245,10 +245,6 @@ section.home {
     margin-top: 50px;
     margin-bottom: 50px;
 }
-section.home article {
-    background-color:  rgb(72, 128, 72);
-    border: 1px solid black;
-}
 
 section.home img {
     max-width: 100%;
