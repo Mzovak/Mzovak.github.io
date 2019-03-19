@@ -42,7 +42,7 @@
   section.forecast {
     display: block;
     font-family: Arial, Helvetica, sans-serif;
-    border-radius: .3em;
+    border-radius: 3em;
     padding: 1.2rem;
     text-align: center;
     background-color: whitesmoke;
@@ -59,12 +59,7 @@
     padding: 10px
   }
 
-  .forecast td,
-  .forcast th {
-    border: 3px solid gray;
-    border-radius: 15px;
-  }
-
+  
   .forecast td {
     text-align: center;
     font-size: 1.5em;

@@ -60,9 +60,9 @@ h2 {
 
 h3 {
     text-align: center;
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: #000000;
-    padding: 20px 20px 20px 20px;
+    padding: 10px 20px 20px 20px;
     margin: 0;
 }
 
@@ -194,13 +194,18 @@ section.forecast {
 section.forecast img {
     max-width: auto;
 }
+section.forecast th {
+    font-size: 1.25em;
+}
 
 article img {
-    max-width: 100%;
+    max-width: 50%;
+    padding: 20px;
 }
 article p {
-    max-width: 500px;
+    max-width: 700px;
     margin: auto;
+      
 }
 div.gallery {
     display: grid;
@@ -236,7 +241,8 @@ footer {
     color: white;
     padding: 20px;
     max-width: 800px;
-    margin-top: auto;
+    margin-top: 0px;
+    border-radius: 3em;
 }
 /*Home page*/
 
@@ -267,11 +273,11 @@ section.home article:nth-of-type(3){
 
 }
 .events {
-    border: 1px solid black;
-    max-width: 400px;
+     max-width: 400px;
     margin: 20px auto;
     padding-bottom: 20px;
-    background-color:  rgb(72, 128, 72, 0.5);
+    background-color:  rgba(72, 128, 72, 0.6);
+    border-radius: 3em;
     
 }
 .events h2 {
