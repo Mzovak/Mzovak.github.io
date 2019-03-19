@@ -41,11 +41,11 @@
       }
   section.forecast {
     display: block;
-    font-family: Arial, Helvetica, sans-serif;
-    border-radius: 3em;
-    padding: 1.2rem;
+    font-family: 'Copse', serif;
+    border-radius: 3px;
+    padding: 1.2px;
     text-align: center;
-    background-color: whitesmoke;
+    background-color: rgb(198, 209, 219);
     margin-left: 3px; margin-right: 3px;
 
   }
@@ -55,13 +55,12 @@
   }
 
   .forecast th {
-    background-color: rgb(72, 128, 72);
-    color: #fff;
-    font-size: 1.2rem;
-    padding: 10px
+    background-color: rgb(247, 247, 164);
+    color: black;
+    font-size: .75em;
+    padding: 15px
   }
-
-  
+    
   .forecast td {
     text-align: center;
     font-size: 1.5em;
@@ -72,19 +71,25 @@
   .forcast table {
     margin-left: 100px;
   }
+
+  .main{
+    max-width: 100%;
+  }
   div.gallery {
     grid-template-columns: repeat(3, 2fr);
-    max-width: 2300px;
+    justify-content: center;
+    max-width: 100%;
     margin: auto;
   }
   div.gallery figure:hover {
     box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4)
   }
    
-.gallery__img {
+.gallery img {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  padding: 0;
 }
 
   #googleMap {

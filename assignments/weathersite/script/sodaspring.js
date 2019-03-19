@@ -100,7 +100,7 @@ function showData(jsonObj) {
     var data = jsonObj['towns'];
     for (var i = 0; i < data.length; i++) {
         var name = data[i].name;
-        if ((name.includes("Preston")) == false) {
+        if ((name.includes("Soda Springs")) == false) {
             continue;
         }
         var myDiv = document.createElement('div');

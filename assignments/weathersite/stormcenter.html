@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/small-8.css">
     <link rel="stylesheet" href="css/medium-8.css">
     <link rel="stylesheet" href="css/large-8.css">
-    <link rel="stylesheet" href="css/stormcenter-8.css">
+    
 
     <title>Storm Center | Weather in Idaho-</title>
 </head>
@@ -37,15 +37,20 @@
 
         </ul>
     </nav>
+
+    <div class="stormy">
+        <h1>Storm Center</h1>
+        <p>Fill out form to report a storm near you!</p>
+    </div>
     <form method="get" action="thanks.html"> 
         <fieldset>
         <h3>Personal Information</h3>
         Full Name: <br>
-        <input type="text" name="Full Name" pattern="[A-Za-z]{3,99}" required><br>
+        <input type="text" name="Full Name" pattern="[A-Za-z -._]{3,99}" required><br>
         E-mail: <br>
         <input type="email" name="mail" placeholder="weather@mail.com"><br>
         Phone Number: <br>
-        <input type="tel" name="phonenumber" pattern="d{3}[\-]\d{3}[\-]\d{4}" required><br>
+        <input type="tel" name="phonenumber" placeholder="555-555-5555" pattern="\d{3}[\-]\d{3}[\-]\d{4}" required><br>
         Zip code: <br>
         <input type="number" name="zipcode" required><br>
     </fieldset>
