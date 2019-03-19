@@ -177,7 +177,7 @@ section.forecast {
 }
 
 section.forecast img {
-    max-width: auto;
+    max-width: 100%;
 }
 
 section.forecast th {
