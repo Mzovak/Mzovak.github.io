@@ -342,3 +342,13 @@ section.home article:nth-of-type(3) {
     padding-bottom: 20px;
     color: white;
 }
+/* Thank you page */
+
+main div p{
+    padding-bottom: 100px; padding-top: 75px;
+    color: White;
+    font-size: 3em;
+}
+main div img {
+    padding-bottom: 50px;
+}
