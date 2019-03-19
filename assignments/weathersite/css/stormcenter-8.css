@@ -70,7 +70,7 @@ input[type=tel] {
     appearance: none;
     width: 25px;
     height: 25px;
-    background: rgb(40, 40, 179);
+    background: rgb(72, 128, 72);
     cursor: pointer;
   }
   
@@ -102,7 +102,7 @@ textarea{
 }
 button{
     border-radius: 4px;
-    background-color: rgb(64, 64, 204);
+    background-color: rgb(72, 128, 72);
     color: white;
     padding: 10px;
 }

@@ -23,7 +23,7 @@ header h1 {
     font-size: 1.5em
         /* x.xrem  (rem is a unit of measure) */
     ;
-    color: black
+    color: white;
         /* #xxxxxx */
     ;
     text-align: center;
@@ -45,6 +45,7 @@ section h1 {
     padding: 15px;
     text-align: center;
     font-size: 3em;
+    color: white;
 }
 
 h2 {
@@ -54,6 +55,7 @@ h2 {
     text-align: center;
     border-bottom: 1px solid #bbb;
     padding: 15px;
+    color: white;
 }
 
 h3 {
@@ -206,10 +208,13 @@ div.gallery {
     grid-template-rows: 200px;
     grid-gap: 50px;
     margin: auto;
+    align-items: center;
     }
 
 div.address  {
     align-self: auto;
+    font-size: 1.25em;
+    color: white;
 }
 
 div.social img {
@@ -227,9 +232,8 @@ footer>p {
 }
 
 footer {
-    font-size: .75em
-        /* smaller */
-    ;
+    font-size: .75em;
+        color: white;
     padding: 20px;
     max-width: 800px;
 }
