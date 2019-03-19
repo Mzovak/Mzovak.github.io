@@ -46,6 +46,8 @@
     padding: 1.2rem;
     text-align: center;
     background-color: whitesmoke;
+    margin-left: 3px; margin-right: 3px;
+
   }
 
   .forecast {
