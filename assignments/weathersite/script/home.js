@@ -46,7 +46,7 @@ function threeCities(jsonObj) {
       myImg1.setAttribute('alt','opps no photo');
       if (i===4) myImg1.src="images/preston.jpg"
       myImg1.setAttribute('alt','opps no photo');
-      if (i===5) myImg1.src="images/sodasprings.JPG"
+      if (i===5) myImg1.src="images/sodasprings.png"
       myImg1.setAttribute('alt','opps no photo');
     }
   }
