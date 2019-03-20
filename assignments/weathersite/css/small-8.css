@@ -200,7 +200,7 @@ article p {
 
 div.gallery {
     display: grid;
-    grid-template-columns: (1fr 100%);
+    grid-template-columns: (1 1fr);
     grid-gap: 15px;
     margin: auto;
     align-items: center;
