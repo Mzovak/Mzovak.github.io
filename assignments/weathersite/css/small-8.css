@@ -194,7 +194,8 @@ article p {
     margin: auto;
     padding-bottom: 20px;
     font-size: 1.25em;
-    font-family: 'Copse', serif;
+    font-family: 'Copse', serif; 
+    line-height: 1.25em;
 }
 
 div.gallery {
